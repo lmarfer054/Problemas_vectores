@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mvcbf4br-3edmdgo2o">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.5">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>Combinación lineal. Bases | Vectores en el plano.</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="problm">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><script src="../theme/z-custom-effects.js"> </script><link rel="stylesheet" href="../theme/colores.css"><link rel="stylesheet" href="../theme/comic.css"><link rel="stylesheet" href="../theme/ejercicio.css"><link rel="stylesheet" href="../theme/libreta.css"><link rel="stylesheet" href="../theme/navegacion.css"><link rel="stylesheet" href="../theme/nota-azul.css"><link rel="stylesheet" href="../theme/retroalimentacion.css"><link rel="stylesheet" href="../theme/style.css">
+<script src="../libs/exe_math/tex-mml-svg.js"> </script>
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mvcbf4br-3edmdgo2o" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Ejercicios de vectores</a>
+</li>
+<li> <a href="../html/resumen-de-la-teoria.html" class="no-ch">Resumen de la teoría</a>
+</li>
+<li> <a href="../html/coordenadas-de-un-vector.html" class="no-ch">Coordenadas de un vector</a>
+</li>
+<li> <a href="../html/vectores-paralelos.html" class="no-ch">Vectores paralelos</a>
+</li>
+<li> <a href="../html/vectores-equipolentes.html" class="no-ch">Vectores equipolentes</a>
+</li>
+<li> <a href="../html/suma-de-vectores.html" class="no-ch">Suma de vectores</a>
+</li>
+<li> <a href="../html/dependencia-e-independencia-lineal.html" class="no-ch">Dependencia e independencia lineal</a>
+</li>
+<li> <a href="../html/vectores-perpendiculares.html" class="no-ch">Vectores perpendiculares</a>
+</li>
+<li> <a href="../html/producto-escalar-angulo-entre-vectores.html" class="no-ch">Producto escalar. Ángulo entre vectores.</a>
+</li>
+<li> <a href="../html/modulo-y-mas.html" class="no-ch">Módulo (y más)</a>
+</li>
+<li class="active"> <a href="../html/combinacion-lineal-bases.html" class="active no-ch">Combinación lineal. Bases</a>
+</li>
+<li> <a href="../html/punto-medio-y-simetrico.html" class="no-ch">Punto medio y simétrico</a>
+</li>
+</ul>
+</nav><main id="page-mvcbf4br-3edmdgo2o" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">Vectores en el plano.</p>
+<p class="package-subtitle">Ejercicios y problemas.</p></div>
+<div class="page-header"><h1 class="page-title">Combinación lineal. Bases</h1></div>
+</header><div id="page-content-page-mvcbf4br-3edmdgo2o" class="page-content">
+<article id="block-mvcbf4bt-aif0p47y1" class="box ejercicio-custom-verde">
+<header class="box-head no-icon">
+<h1 class="box-title">Problema 1</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvcbf4bt-bt8bhtioi" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvcbf4bt-bt8bhtioi&quot;}">
+<div class="exe-text-template">
+    <div class="exe-text-activity"><p>Expresa el vector \(\vec{u}(3,4)\) como combinación lineal de los vectores \(\vec{a}(1,2)\) y \(\vec{b}(3,5)\).</p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbacktooglebutton" value="Solución" data-text-a="Solución" data-text-b="Solución"></div><div class="feedback js-feedback js-hidden" style="display: none;"><p><strong>1. Planteamiento de la ecuación vectorial:</strong> Buscamos dos números reales \(x\) e \(y\) de forma que el vector \(\vec{u}\) se pueda obtener sumando los otros dos multiplicados por dichos valores:</p>
+<div style="margin-top: 15px;">\[ \vec{u} = x\vec{a} + y\vec{b} \implies (3, 4) = x(1, 2) + y(3, 5) \]
+<p style="margin-top: 10px;"><strong>2. Resolución del sistema de ecuaciones:</strong> Igualamos las componentes correspondientes a la \(x\) y a la \(y\) por separado:</p>
+\[ \begin{cases} x + 3y = 3 \quad \text{(Componente x)} \\ 2x + 5y = 4 \quad \text{(Componente y)} \end{cases} \]
+<p>Despejamos la variable \(x\) en la primera ecuación para aplicar el método de sustitución:</p>
+\[ x = 3 - 3y \]
+<p>Sustituimos esta expresión en la segunda ecuación del sistema:</p>
+\[ 2(3 - 3y) + 5y = 4 \implies 6 - 6y + 5y = 4 \implies 6 - y = 4 \implies \pmb{y = 2} \]
+<p>Una vez hallado el valor de \(y\), volvemos a la expresión despejada para calcular la \(x\):</p>
+\[ x = 3 - 3(2) = 3 - 6 \implies \pmb{x = -3} \]
+<p style="margin-top: 15px;"><strong>Resultado final:</strong> Los coeficientes de la combinación lineal son \(x = -3\) e \(y = 2\). Por lo tanto, el vector \(\vec{u}\) expresado en función de la base es:</p>
+\[ \pmb{\vec{u} = -3\vec{a} + 2\vec{b}} \]</div>
+<!-- CONTENEDOR DE DOBLE TARJETA CON TEXTOS INTEGRADOS EN SVG -->
+<div style="display: flex; flex-wrap: wrap; gap: 25px; justify-content: center; margin: 25px auto; max-width: 860px; font-family: system-ui, sans-serif; box-sizing: border-box;"><!-- TARJETA 1: VECTORES ORIGINALES (IZQUIERDA) -->
+<div style="flex: 1; min-width: 280px; max-width: 400px; background-color: #fafdf3; padding: 15px; border-radius: 6px; border: 1px solid #007932; text-align: center; box-sizing: border-box;"><svg viewbox="0 0 240 260" width="100%" height="auto" style="overflow: visible;"> <defs> <marker id="arr-p1-a" viewbox="0 0 10 10" refx="7" refy="5" markerwidth="5" markerheight="5" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#1971c2"></path></marker> <marker id="arr-p1-b" viewbox="0 0 10 10" refx="7" refy="5" markerwidth="5" markerheight="5" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#7a297b"></path></marker> </defs> <!-- Ejes cartesianos --> <line x1="10" y1="140" x2="230" y2="140" stroke="#ccc" stroke-width="1"></line> <line x1="100" y1="10" x2="100" y2="200" stroke="#ccc" stroke-width="1"></line> <!-- Origen despejado --> <text x="90" y="132" font-size="10" fill="#666" text-anchor="end">O(0,0)</text> <!-- Vector a(1,2) -> Azul Eléctrico --> <line x1="100" y1="140" x2="120" y2="120" stroke="#1971c2" stroke-width="2.5" marker-end="url(#arr-p1-a)"></line> <circle cx="120" cy="120" r="3.5" fill="#1971c2"></circle> <text x="116" y="112" fill="#1971c2" font-size="11" font-weight="bold" text-anchor="end">a(1,2)</text> <!-- Vector b(3,5) -> Púrpura --> <line x1="100" y1="140" x2="160" y2="90" stroke="#7a297b" stroke-width="2.5" marker-end="url(#arr-p1-b)"></line> <circle cx="160" cy="90" r="3.5" fill="#7a297b"></circle> <text x="168" y="92" fill="#7a297b" font-size="11" font-weight="bold" text-anchor="start">b(3,5)</text> <!-- TEXTO INCRUSTADO EN EL SVG (A salvo de recortes) --> <rect x="5" y="215" width="230" height="40" fill="#f1f9e4" rx="4"></rect> <text x="120" y="232" font-size="11" fill="#222" font-weight="500" text-anchor="middle">1. Estado inicial: Vectores de la base</text> <text x="120" y="248" font-size="11" fill="#222" font-weight="500" text-anchor="middle">dados por el enunciado.</text> </svg></div>
+<!-- TARJETA 2: COMBINACIÓN LINEAL (DERECHA) -->
+<div style="flex: 1; min-width: 280px; max-width: 400px; background-color: #fafdf3; padding: 15px; border-radius: 6px; border: 1px solid #007932; text-align: center; box-sizing: border-box;"><svg viewbox="0 0 240 260" width="100%" height="auto" style="overflow: visible;"> <defs> <marker id="arr-p1-u" viewbox="0 0 10 10" refx="7" refy="5" markerwidth="6" markerheight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#007932"></path></marker> <marker id="arr-p1-comp" viewbox="0 0 10 10" refx="7" refy="5" markerwidth="6" markerheight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#c92a2a"></path></marker> </defs> <!-- Ejes cartesianos --> <line x1="10" y1="140" x2="230" y2="140" stroke="#ccc" stroke-width="1"></line> <line x1="100" y1="10" x2="100" y2="200" stroke="#ccc" stroke-width="1"></line> <!-- Origen alineado --> <text x="90" y="132" font-size="10" fill="#666" text-anchor="end">O(0,0)</text> <!-- Vector -3a --> <line x1="100" y1="140" x2="40" y2="200" stroke="#c92a2a" stroke-width="1.5" stroke-dasharray="3,3" marker-end="url(#arr-p1-comp)"></line> <text x="35" y="185" fill="#c92a2a" font-size="10" font-weight="bold" text-anchor="end">-3a</text> <!-- Vector 2b desde el extremo de -3a --> <line x1="40" y1="200" x2="160" y2="100" stroke="#c92a2a" stroke-width="1.5" stroke-dasharray="3,3" marker-end="url(#arr-p1-comp)"></line> <text x="110" y="170" fill="#c92a2a" font-size="10" font-weight="bold">2b</text> <!-- Vector resultante u --> <line x1="100" y1="140" x2="160" y2="100" stroke="#007932" stroke-width="2.5" marker-end="url(#arr-p1-u)"></line> <circle cx="160" cy="100" r="3.5" fill="#007932"></circle> <text x="168" y="96" font-weight="bold" font-size="11" fill="#007932">u(3,4)</text> <!-- TEXTO INCRUSTADO EN EL SVG (A salvo de recortes) --> <rect x="5" y="215" width="230" height="40" fill="#f1f9e4" rx="4"></rect> <text x="120" y="232" font-size="11" fill="#222" font-weight="500" text-anchor="middle">2. Resultado: Cierre del paralelogramo</text> <text x="120" y="248" font-size="11" fill="#222" font-weight="500" text-anchor="middle">con u = -3a + 2b.</text> </svg></div>
+</div></div></div>
+</div>
+</div>
+</div>
+</article><article id="block-mvcbf4bt-p8h9el1d1" class="box ejercicio-custom-verde">
+<header class="box-head no-icon">
+<h1 class="box-title">Problema 2</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvcbf4bt-9cv70fgsp" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvcbf4bt-9cv70fgsp&quot;}">
+<div class="exe-text-template">
+    <div class="exe-text-activity"><p>Demuestra que los vectores \(\vec{i}(4,0)\) y \(\vec{j}(0,3)\) forman una base ortogonal. Expresa el vector \(\vec{u}(4,6)\) en función de dicha base.</p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbacktooglebutton" value="Solución" data-text-a="Solución" data-text-b="Solución"></div><div class="feedback js-feedback js-hidden" style="display: none;"><div style="margin-top: 15px;">
+<p><strong>1. Demostración de base ortogonal:</strong> Dos vectores no nulos forman una base ortogonal en \(\mathbb{R}^2\) si su producto escalar es igual a cero (son perpendiculares):</p>
+\[ \vec{i} \cdot \vec{j} = (4 \cdot 0) + (0 \cdot 3) = 0 + 0 = \pmb{0} \]
+<p>Como \(\vec{i} \cdot \vec{j} = 0\), los vectores son ortogonales y linealmente independientes, por lo tanto **forman una base ortogonal**.</p>
+<p style="margin-top: 15px;"><strong>2. Expresión del vector en la nueva base:</strong> Planteamos la combinación lineal:</p>
+\[ \vec{u} = x\vec{i} + y\vec{j} \implies (4, 6) = x(4, 0) + y(0, 3) \implies (4, 6) = (4x, 3y) \]
+<p>Igualamos los términos directamente:</p>
+\[ 4x = 4 \implies \pmb{x = 1} \] \[ 3y = 6 \implies \pmb{y = 2} \]
+<p style="margin-top: 15px;"><strong>Resultado:</strong> El vector \(\vec{u}\) expresado en la base ortogonal es:</p>
+\[ \pmb{\vec{u} = 1\vec{i} + 2\vec{j}} \]</div>
+<!-- GRÁFICO SVG BASE ORTOGONAL -->
+<div style="margin: 20px auto; max-width: 400px; background-color: #fafdf3; padding: 15px; border-radius: 6px; border: 1px solid #007932; text-align: center; box-sizing: border-box; font-family: system-ui, sans-serif;"><svg viewbox="0 0 240 200" width="100%" height="100%" style="overflow: visible;"> <defs> <marker id="arr-p2-base" viewbox="0 0 10 10" refx="7" refy="5" markerwidth="5" markerheight="5" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#7a297b"></path></marker> <marker id="arr-p2-u" viewbox="0 0 10 10" refx="7" refy="5" markerwidth="6" markerheight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#007932"></path></marker> </defs> <line x1="20" y1="160" x2="220" y2="160" stroke="#ccc" stroke-width="1"></line> <line x1="60" y1="20" x2="60" y2="180" stroke="#ccc" stroke-width="1"></line> <!-- Vectores base --> <line x1="60" y1="160" x2="140" y2="160" stroke="#7a297b" stroke-width="2" marker-end="url(#arr-p2-base)"></line> <text x="145" y="172" fill="#7a297b" font-size="11" font-weight="bold">i(4,0)</text> <line x1="60" y1="160" x2="60" y2="100" stroke="#7a297b" stroke-width="2" marker-end="url(#arr-p2-base)"></line> <text x="45" y="95" fill="#7a297b" font-size="11" font-weight="bold">j(0,3)</text> <!-- Proyección 2j --> <line x1="140" y1="160" x2="140" y2="40" stroke="#c92a2a" stroke-width="1.2" stroke-dasharray="3,3"></line> <line x1="60" y1="40" x2="140" y2="40" stroke="#c92a2a" stroke-width="1.2" stroke-dasharray="3,3"></line> <text x="42" y="45" fill="#c92a2a" font-size="10" font-weight="bold">2j</text> <!-- Vector resultante u --> <line x1="60" y1="160" x2="140" y2="40" stroke="#007932" stroke-width="2.5" marker-end="url(#arr-p2-u)"></line> <circle cx="140" cy="40" r="3.5" fill="#007932"></circle> <text x="148" y="36" font-weight="bold" font-size="11" fill="#007932">u = 1i + 2j</text> <!-- Símbolo ángulo recto --> <path d="M 60 150 L 70 150 L 70 160" fill="none" stroke="#7a297b" stroke-width="1"></path> </svg>
+<div style="font-size: 0.85rem; color: #555; font-weight: 500; margin-top: 5px;">Base ortogonal:</div>
+<div style="font-size: 0.85rem; color: #555; font-weight: 500; margin-top: 5px;">Los vectores base forman un ángulo de 90°.</div>
+</div></div></div>
+</div>
+</div>
+</div>
+</article><article id="block-mvcbf4bt-rthgldyjj" class="box ejercicio-custom-verde">
+<header class="box-head no-icon">
+<h1 class="box-title">Problema 3</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvcbf4bt-h19ljqp1u" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvcbf4bt-h19ljqp1u&quot;}">
+<div class="exe-text-template">
+    <div class="exe-text-activity"><p>Demuestra que los vectores \(\vec{i}(1,0)\) y \(\vec{j}(0,1)\) forman una base ortonormal y expresa el vector \(\vec{u}(5,3)\) respecto de dicha base.</p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbacktooglebutton" value="Solución" data-text-a="Solución" data-text-b="Solución"></div><div class="feedback js-feedback js-hidden" style="display: none;"><div style="margin-top: 15px;">
+<p><strong>1. Demostración de base ortonormal:</strong> Una base es ortonormal si sus vectores son ortogonales entre sí (producto escalar cero) y además sus módulos miden exactamente la unidad (1):</p>
+<ul style="padding-left: 20px; line-height: 1.8;">
+<li><strong>Ortogonalidad:</strong> \(\vec{i} \cdot \vec{j} = (1 \cdot 0) + (0 \cdot 1) = \pmb{0}\) (Son perpendiculares)</li>
+<li><strong>Módulo de \(\vec{i}\):</strong> \(\lvert\vec{i}\rvert = \sqrt{1^2 + 0^2} = \pmb{1}\)</li>
+<li><strong>Módulo de \(\vec{j}\):</strong> \(\lvert\vec{j}\rvert = \sqrt{0^2 + 1^2} = \pmb{1}\)</li>
+</ul>
+<p>Al cumplir ambas condiciones de manera simultánea, forman la **base ortonormal canónica** en \(\mathbb{R}^2\).</p>
+<p style="margin-top: 15px;"><strong>2. Expresión del vector:</strong> En la base canónica, las coordenadas del vector coinciden directamente con los coeficientes algebraicos de la combinación lineal:</p>
+\[ \pmb{\vec{u} = 5\vec{i} + 3\vec{j}} \]</div>
+<!-- GRÁFICO SVG BASE ORTONORMAL -->
+<div style="margin: 20px auto; max-width: 400px; background-color: #fafdf3; padding: 15px; border-radius: 6px; border: 1px solid #007932; text-align: center; box-sizing: border-box; font-family: system-ui, sans-serif;"><svg viewbox="0 0 240 180" width="100%" height="100%" style="overflow: visible;"> <defs> <marker id="arr-p3-base" viewbox="0 0 10 10" refx="7" refy="5" markerwidth="5" markerheight="5" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#7a297b"></path></marker> <marker id="arr-p3-u" viewbox="0 0 10 10" refx="7" refy="5" markerwidth="6" markerheight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#007932"></path></marker> </defs> <line x1="20" y1="140" x2="220" y2="140" stroke="#ccc" stroke-width="1"></line> <line x1="50" y1="20" x2="50" y2="160" stroke="#ccc" stroke-width="1"></line> <!-- Vectores unitarios base --> <line x1="50" y1="140" x2="80" y2="140" stroke="#7a297b" stroke-width="2" marker-end="url(#arr-p3-base)"></line> <text x="76" y="153" fill="#7a297b" font-size="10" font-weight="bold">i</text> <line x1="50" y1="140" x2="50" y2="110" stroke="#7a297b" stroke-width="2" marker-end="url(#arr-p3-base)"></line> <text x="38" y="114" fill="#7a297b" font-size="10" font-weight="bold">j</text> <!-- Proyecciones del vector u --> <line x1="200" y1="140" x2="200" y2="50" stroke="#c92a2a" stroke-width="1.2" stroke-dasharray="3,3"></line> <line x1="50" y1="50" x2="200" y2="50" stroke="#c92a2a" stroke-width="1.2" stroke-dasharray="3,3"></line> <text x="200" y="153" fill="#c92a2a" font-size="10" font-weight="bold" text-anchor="middle">5i</text> <text x="35" y="54" fill="#c92a2a" font-size="10" font-weight="bold">3j</text> <!-- Vector resultante u --> <line x1="50" y1="140" x2="200" y2="50" stroke="#007932" stroke-width="2.5" marker-end="url(#arr-p3-u)"></line> <circle cx="200" cy="50" r="3.5" fill="#007932"></circle> <text x="206" y="46" font-weight="bold" font-size="11" fill="#007932">u(5,3)</text> </svg>
+<div style="font-size: 0.85rem; color: #555; font-weight: 500; margin-top: 5px;">Base ortonormal:</div>
+<div style="font-size: 0.85rem; color: #555; font-weight: 500; margin-top: 5px;">Vectores perpendiculares con longitud unitaria.</div>
+</div></div></div>
+</div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/modulo-y-mas.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/punto-medio-y-simetrico.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">Creative Commons: Reconocimiento - compartir igual 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>
